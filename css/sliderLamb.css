@@ -1,0 +1,29 @@
+        .slider-lamb .inner-slider{
+                height:100%;
+                width:0;
+                background-color: lightgreen ;
+                text-align: center;
+            }
+           .slider-lamb .msg{
+                position: absolute;
+                left:60px;
+                padding: 0px;
+                margin: 0px;
+                line-height: 40px;
+            }
+           .slider-lamb .sb{
+                position: absolute;
+                left:0;
+                width:40px;
+                height:100%;
+                box-sizing: border-box;
+                color:white;
+            }
+           .slider-lamb .sb_normal{
+                background: white   url(../img/slider.png)  50% 50% no-repeat ;
+            }
+            
+           .slider-lamb .sb_success{
+                background: white  url(../img/success.png)  50% 50% no-repeat ;
+            }
+            

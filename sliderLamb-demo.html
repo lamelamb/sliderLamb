@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>滑块验证 面向对象</title>
+        
+        <!-- sliderLamb css 文件，js 文件 -->
+        <link   rel="stylesheet" href="css/sliderLamb.css">
+        <script src="js/sliderLamb.js"></script>
+	</head>
+	<body>
+        <!-- 给一个div 容器，同时取class slider-lamb  -->
+           <div  class="slider-lamb" id="s1"></div> 
+           <div  class="slider-lamb" id="s2"></div>
+          
+	</body>
+    <script>
+        
+        
+       var slider2 = new sliderLamb({
+             el:'#s2',
+       });
+        
+        var slider = new sliderLamb({
+              el:'#s1',
+        });
+        
+         
+    </script>
+</html>
